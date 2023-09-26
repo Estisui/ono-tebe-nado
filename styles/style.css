@@ -3,7 +3,7 @@
 /* header */
 
 .header {
-  margin: 92px 49px 92px 51px;
+  margin: 92px 52px;
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
@@ -17,7 +17,6 @@
 .header__links-list-item {
   list-style: circle;
   font-size: 18px;
-  line-height: normal;
 }
 
 .header__links-list-item_no-bullit {
@@ -36,6 +35,8 @@
 
 .header__logo {
   justify-self: center;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .header__logo-image {
@@ -101,7 +102,7 @@
 .cover__description-text {
   text-align: center;
   font-size: 22px;
-  line-height: 28px;
+  line-height: 127.273%;
   word-spacing: 18px;
 }
 
@@ -257,6 +258,7 @@
 
 .footer__menu-link_active {
   text-decoration: none;
+  cursor: default;
 }
 
 .footer__social-list {
